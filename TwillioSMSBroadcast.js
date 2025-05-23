@@ -10,7 +10,7 @@ const client = new twilio(accountSid, authToken);
 // Add your phone number here
 const fromPhoneNumber = 'your_twilio_phone_number';
 
-// CSV file path, double check format
+// CSV file path, double check format.
 const csvFilePath = 'contacts.csv';
 
 // Method to send SMS
